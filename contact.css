@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image:url(backgroundpic1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+
+.main-nav li.nav-item
+{
+    display: inline-block;
+}
+
+.main-nav li.nav-item a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+.main-nav li.nav-item a:hover
+{
+    border: 2px solid white;
+}
+
+.main-nav li.nav-item
+{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.main-nav li.nav-item ul.dropdown
+{
+    display: none;
+    position: absolute;
+    top: 35px;
+    background-color: #1c1c1b;
+    padding: 20px 10px;
+    z-index: 200;
+    line-height: 10mm;
+    border-radius: 0px 0px 4px 4px;
+    box-sizing: border-box;
+}
+
+.main-nav li.nav-item:hover ul
+{
+    display: block;
+}
+
+.main-nav li.nav-item ul.dropdown 
+{
+    width: 250px;
+}
+
+.main-nav li.nav-item ul.dropdown li.dropdown-item a
+{
+    width: 100%;
+    padding: 8px 14px;
+}
+
+.row
+{
+    max-width: 100%;
+    margin: auto;
+    padding-right: 30px;
+    background-color: #1c1c1b;
+    height: 70px;
+}
+
+.logo img
+{
+    width: 60px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+h1
+{
+    color: white;
+    font-size: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10rem;
+    font-family: 'Poppins', sans-serif;
+}
